@@ -1,0 +1,8 @@
+{
+  "_comment": "source supports {day} placeholder. Use http(s):// for live sites, or a repo-relative path for fixtures.",
+  "targets": [
+    {"sku": "ATLAS-14",  "site": "atlas",  "source": "data/fixtures/atlas-{day}.html"},
+    {"sku": "ZENITH-9",  "site": "zenith", "source": "data/fixtures/zenith-{day}.html"},
+    {"sku": "LEGACY-3",  "site": "legacy", "source": "data/fixtures/legacy-{day}.html"}
+  ]
+}
