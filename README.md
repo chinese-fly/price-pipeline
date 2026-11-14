@@ -1,5 +1,7 @@
 # price-pipeline
 
+English | [简体中文](README.zh-CN.md)
+
 Scheduled price collection with layered extraction, retry/backoff, SQLite history, and a day-over-day report that leads with what moved.
 
 ```bash
