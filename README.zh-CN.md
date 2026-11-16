@@ -8,7 +8,7 @@
 python run.py --day day1 --at 2026-11-01T09:00:00+00:00
 python run.py --day day2 --at 2026-11-02T09:00:00+00:00
 cat reports/report-day2.md
-python -m unittest discover -s tests      # 11 tests, ~1s
+python -m unittest      # 11 tests, ~1s
 ```
 
 零第三方依赖。Python 3.10+。
